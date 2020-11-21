@@ -46,7 +46,7 @@ Port: 5000(Default)
 API: /api/ldap/login
 Method: GET
 Params:
-    - username: Username of User (GS-xxxx)
+    - username: Username of User (XX-xxxx)
     - password: Password of User in base64 encoding
 ```
 
@@ -55,5 +55,5 @@ Params:
 API: /api/ldap/details
 Method: GET
 Params:
-    - username: Username of User (GS-xxxx)
+    - username: Username of User (XX-xxxx)
 ```
